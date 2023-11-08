@@ -155,7 +155,7 @@
   display: none;
 }
 .parent .expanded .icons button svg {
-  display: block;
+  display: flex;
 }
 .parent .expanded .icons .btn {
   height: 49px;

@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
         if(audioPlayer.paused){
             audioPlayer.play();
             playButton.style.display = 'none';
-        pauseButton.style.display = 'block';
+        pauseButton.style.display = 'flex';
         }
         // else{
         //     audioPlayer.pause();
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
     pauseButton.addEventListener('click',()=>{
         audioPlayer.pause();
          pauseButton.style.display = 'none';
-         playButton.style.display = 'block';
+         playButton.style.display = 'flex';
     })
 
 
