@@ -1,0 +1,169 @@
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.parent .box {
+  width: 30%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #090909;
+}
+.parent .box header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-self: flex-start;
+}
+.parent .box header svg {
+  background-color: #080808;
+  border: none;
+}
+.parent .box header .arrow {
+  border: none;
+  background-color: #080808;
+  cursor: pointer;
+}
+.parent .box .outer {
+  margin: 35px 35px 0px 35px;
+}
+.parent .box .outer img {
+  width: 154px;
+  height: 154px;
+  border-radius: 154px;
+  box-shadow: 0px 0px 0px 32px rgba(255, 255, 255, 0.04);
+  border: 6px solid #080808;
+}
+.parent .box h4 {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+}
+.parent .box p {
+  margin-top: -35px;
+  color: #B9B9B9;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.5px; /* 159.375% */
+  letter-spacing: 0.5px;
+}
+.parent .box .inner {
+  display: flex;
+  flex-direction: row;
+}
+.parent .box .inner .audio-player {
+  text-align: center;
+}
+.parent .box .inner .audio-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+}
+.parent .box .inner .progress-bar {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.parent .box .inner .progress-bar span {
+  margin: 10px;
+}
+.parent .box .inner .progress-bar progress {
+  width: 250px;
+  height: 6px;
+}
+.parent .box .icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 27px;
+  flex-direction: row;
+}
+.parent .box .icons .btn {
+  display: flex;
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 50px;
+  background: #FFF;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+.parent .box .icons .cont {
+  position: relative;
+}
+.parent .box .icons .pause-button {
+  display: none;
+  position: relative;
+}
+.parent .expanded {
+  display: flex;
+  flex-direction: row;
+  padding-right: 0px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  margin-left: 0px;
+  background: #080808;
+}
+.parent .expanded {
+  margin: 0px;
+  padding: 0px;
+  margin-top: 20px;
+}
+.parent .expanded h4 {
+  text-align: left;
+}
+.parent .expanded .arrow {
+  display: none;
+}
+.parent .expanded .outer {
+  border-radius: 0px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+}
+.parent .expanded .outer img {
+  width: 96px;
+  height: 132px;
+  border-radius: 20px 0px 0px 20px;
+  box-shadow: none;
+  border: none;
+  margin-left: -10px;
+  margin-bottom: -4px;
+}
+.parent .expanded .inner span {
+  display: none;
+}
+.parent .expanded .inner progress {
+  display: none;
+}
+.parent .expanded .icons svg {
+  display: none;
+}
+.parent .expanded .icons button svg {
+  display: block;
+}
+.parent .expanded .icons .btn {
+  height: 49px;
+  width: 49px;
+  align-items: center;
+  justify-content: center;
+}
+.parent .expanded .icons .btn svg {
+  height: 14px;
+  width: 18px;
+}/*# sourceMappingURL=style.css.map */
